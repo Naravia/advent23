@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.code {
+  @apply bg-gray-300 rounded-sm inline-block p-2 font-mono;
+}
