@@ -45,10 +45,8 @@ const day2Solution = computed(() => {
   output += `Scanning for digits in ${lines.length} lines of input...<br>`
   const digitRegex = /(\d)/g
   const numbers = ['invalid_number', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
-  let lineNumber = 0
   let sum = 0
   for (const line of lines) {
-    lineNumber++
     let firstDigit = {
       pos: 9999,
       number: -1
@@ -105,6 +103,7 @@ const day2Solution = computed(() => {
 <template>
   <main>
     <hr class="py-2" />
+    <h1 class="text-3xl text-center">Day 1: Trebuchet?!</h1>
     <div class="grid grid-cols-3 space-x-4">
       <div class="space-y-2">
         <h1 class="text-xl">Input:</h1>

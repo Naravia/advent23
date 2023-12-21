@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 const days = ref([
   { day: 1, title: 'Day 1', link: '/day1', available: true },
-  { day: 2, title: 'Day 2', link: '/day2', available: false },
+  { day: 2, title: 'Day 2', link: '/day2', available: true },
   { day: 3, title: 'Day 3', link: '/day3', available: false },
   { day: 4, title: 'Day 4', link: '/day4', available: false },
   { day: 5, title: 'Day 5', link: '/day5', available: false },
